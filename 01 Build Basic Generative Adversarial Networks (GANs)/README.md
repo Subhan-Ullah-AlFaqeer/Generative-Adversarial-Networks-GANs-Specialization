@@ -1,6 +1,6 @@
 Build your subject-matter expertise
 This course is part of the Generative Adversarial Networks (GANs) Specialization
-When you enroll in this course, you'll also be enrolled in this Specialization.
+When you enroll in this course, you'll also be enrolled in this Specialization
 
     Learn new concepts from industry experts
     Gain a foundational understanding of a subject or tool
