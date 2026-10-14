@@ -1,3 +1,15 @@
+<div align="center">
+
+# 🎨 DeepLearning.AI Generative Adversarial Networks (GANs) Specialization
+
+[![DeepLearning.AI Specialization](https://img.shields.io/badge/Certification-DeepLearning.AI%20GANs-blue?style=for-the-badge&logo=deeplearningdotai)](https://coursera.org/share/0219478af420c3af3fe53c89393b1e6e)
+[![Status](https://img.shields.io/badge/Progress-all%20Courses%20Complete-success?style=for-the-badge)](https://coursera.org/share/0219478af420c3af3fe53c89393b1e6e)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/subhan-ullah-alfaqeer)
+
+---
+</div>
+
+#  Specialization Overview:
 # 🎨 DeepLearning.AI Generative Adversarial Networks (GANs) Specialization
 
 Welcome to the root repository for the **DeepLearning.AI Generative Adversarial Networks (GANs) Specialization**, instructed by Sharon Zhou, Eda Zhou, Eric Zelikman, and Andrew Ng. This comprehensive 3-course series provides a production-grade journey through deep generative modeling—progressing from foundational game-theoretic adversarial objectives to state-of-the-art architectures, quantitative evaluation metrics, algorithmic fairness, and domain-specific applications in computer vision and privacy.
@@ -9,19 +21,19 @@ Throughout this specialization, you will construct, train, evaluate, and deploy 
 ## 📝 Specialization Overview & Technical Core
 - **Game-Theoretic Adversarial Foundations:** Formulating generative learning as a zero-sum minimax game between a Generator $G_{\theta}$ and a Discriminator $D_{\phi}$. Transitioning from original Jensen-Shannon divergence min-max formulations to Earth Mover's (Wasserstein-1) Distance with Lipschitz continuity constraints enforced via Gradient Penalty:
 
-  $$\min_G \max_D V(D, G) = \mathbb{E}_{x \sim p_{\text{data}}}[D(x)] - \mathbb{E}_{z \sim p_z}[D(G(z))] - \lambda \mathbb{E}_{\hat{x} \sim p_{\hat{x}}}\left[(\|\nabla_{\hat{x}} D(\hat{x})\|_2 - 1)^2\right]$$
+$$\min_G \max_D V(D, G) = \mathbb{E}_{x \sim p_{\text{data}}}[D(x)] - \mathbb{E}_{z \sim p_z}[D(G(z))] - \lambda \mathbb{E}_{\hat{x} \sim p_{\hat{x}}}\left[(\|\nabla_{\hat{x}} D(\hat{x})\|_2 - 1)^2\right]$$
 
 - **Quantitative Generative Evaluation & Embeddings:** Assessing sample fidelity and distribution coverage in deep feature spaces using pre-trained Inception-v3 activation vectors. Calculating Fréchet Inception Distance (FID) over multivariate Gaussian distributions $\mathcal{N}(\mu_r, \Sigma_r)$ and $\mathcal{N}(\mu_g, \Sigma_g)$:
 
-  $$\text{FID} = \|\mu_r - \mu_g\|_2^2 + \text{Tr}\left(\Sigma_r + \Sigma_g - 2\left(\Sigma_r \Sigma_g\right)^{1/2}\right)$$
+$$\text{FID} = \|\mu_r - \mu_g\|_2^2 + \text{Tr}\left(\Sigma_r + \Sigma_g - 2\left(\Sigma_r \Sigma_g\right)^{1/2}\right)$$
 
 - **State-of-the-Art Style Disentanglement & Control:** Unrolling Gaussian latent space $z \in \mathbb{R}^{512}$ into intermediate disentangled space $w \in \mathbb{W}$ via 8-layer MLPs in StyleGAN. Modulating channel scale and bias via Adaptive Instance Normalization (AdaIN) and weight demodulation while injecting per-pixel stochastic noise for fine visual details:
 
-  $$\text{AdaIN}(x_i, y) = \mathbf{y}_{s, i} \left( \frac{x_i - \mu(x_i)}{\sigma(x_i)} \right) + \mathbf{y}_{b, i}$$
+$$\text{AdaIN}(x_i, y) = \mathbf{y}_{s, i} \left( \frac{x_i - \mu(x_i)}{\sigma(x_i)} \right) + \mathbf{y}_{b, i}$$
 
 - **Paired & Unpaired Image-to-Image Translation:** Mapping visual domains using U-Net skip connection generators and $70 \times 70$ PatchGAN local discriminators (Pix2Pix), alongside dual-generator bi-directional style transfer constrained by Cycle Consistency and Identity losses (CycleGAN):
 
-  $$\mathcal{L}_{\text{cyc}} = \mathbb{E}_{x}\left[ \|G_{Y \to X}(G_{X \to Y}(x)) - x\|_1 \right] + \mathbb{E}_{y}\left[ \|G_{X \to Y}(G_{Y \to X}(y)) - y\|_1 \right]$$
+$$\mathcal{L}_{\text{cyc}} = \mathbb{E}_{x}\left[ \|G_{Y \to X}(G_{X \to Y}(x)) - x\|_1 \right] + \mathbb{E}_{y}\left[ \|G_{X \to Y}(G_{Y \to X}(y)) - y\|_1 \right]$$
 
 - **Social Implications, Bias & Privacy:** Auditing training datasets and pre-trained generators for demographic bias, defining formal fairness criteria, preserving privacy via differential privacy (DP-GAN), and generating synthetic data for downstream classifier augmentation.
 
@@ -45,7 +57,7 @@ The unified mathematical progression and architectural lineage across the 3-cour
 
 - **Adversarial Foundation to Style Disentanglement Evolution**:
 
-  $$\begin{aligned}
+$$\begin{aligned}
   \text{Basic GAN (Course 1): } &z \sim \mathcal{N}(0, I) \longrightarrow \mathbf{G}_{\text{Deconv}} \longrightarrow \hat{x} \longrightarrow \mathbf{D}_{\text{Conv}} \longrightarrow \text{Sigmoid Scalar Logit} \\
   \text{StyleGAN (Course 2): } &z \xrightarrow{\mathbf{\text{MLP}}_{\times 8}} w \in \mathbb{W} \longrightarrow \text{AdaIN / ModDemod Modulation at Resolution Blocks} \longrightarrow \text{Disentangled Visuals} \\
   \text{CycleGAN (Course 3): } &x \in X \xrightarrow{\mathbf{G}_{X \to Y}} \hat{y} \xrightarrow{\mathbf{G}_{Y \to X}} \hat{x}_{\text{recon}} \implies \mathcal{L}_{\text{cyc}} = \|x - \hat{x}_{\text{recon}}\|_1
@@ -56,10 +68,10 @@ The unified mathematical progression and architectural lineage across the 3-cour
 | Architecture | Core Metric / Loss | Key Advantage | Primary Limitation |
 | :--- | :--- | :--- | :--- |
 | **DCGAN / WGAN-GP** | Wasserstein Distance + $\lambda \|\nabla D\|_2$ | Stable adversarial training; prevents mode collapse | Global latent space entanglements |
-| **Variational Autoencoder** | $\text{MSE / BCE} + D_{\text{KL}}(q_\phi(z|x) \parallel p(z))$ | Explicit log-likelihood ELBO bound; stable training | Blurry reconstruction outputs |
+| **Variational Autoencoder** | $\text{MSE / BCE} + D_{\text{KL}}(q_\phi(z\|x) \parallel p(z))$ | Explicit log-likelihood ELBO bound; stable training | Blurry reconstruction outputs |
 | **StyleGAN1–3** | Fréchet Inception Distance (FID) | Unmatched image fidelity & latent attribute control | High computational training requirements |
 | **Pix2Pix** | Conditional GAN + $\lambda \|Y - \hat{Y}\|_1$ | Preserves multi-scale spatial structure | Requires strictly aligned training pairs |
-| **CycleGAN** | Adversarial Loss + $\lambda_{\text{cyc}} \mathcal{L}_{\text{cyc}} + \lambda_{\text{id}} \mathcal{L}_{\text{id}}$ | Unpaired domain-to-domain style translation | Cannot make drastic structural geometry changes |
+| **CycleGAN** | Adversarial Loss + $\lambda{\text{cyc}} \mathcal{L}{\text{cyc}} + \lambda{\text{id}} \mathcal{L}_{\text{id}}$ | Unpaired domain-to-domain style translation | Cannot make drastic structural geometry changes |
 
 ---
 
@@ -88,3 +100,22 @@ The unified mathematical progression and architectural lineage across the 3-cour
 | Deep Learning Framework | Computer Vision & Transforms | Metrics & Scientific Computing | Interactive Environment |
 | :---: | :---: | :---: | :---: |
 | ![PyTorch](https://img.shields.io/badge/PyTorch-2.x-EE4C2C?style=flat&logo=pytorch&logoColor=white) | ![Torchvision](https://img.shields.io/badge/Torchvision-Transforms_&_Models-0056D2?style=flat&logo=python&logoColor=white) | ![SciPy](https://img.shields.io/badge/SciPy_&_NumPy-Matrix_Algebra-8CAAE6?style=flat&logo=scipy&logoColor=white) | ![Jupyter](https://img.shields.io/badge/Jupyter-Interactive_Labs-FA0F00?style=flat&logo=jupyter&logoColor=white) |
+
+
+---
+## 🚀 Professional Credentials
+
+Upon the successful completion of this rigorous engineering track, I have earned the following industry-recognized credentials:
+
+🎓 **Coursera Professional Certificate Verified** 
+
+<div align="center">
+
+
+| **Official Certificate** |
+| :---: |
+| <a href="https://coursera.org/share/0219478af420c3af3fe53c89393b1e6e"><img src="certificates/Generative Adversarial Networks (GANs) Specialization Certificate-1.png" width="580" alt="View Certificate"></a> |
+| [🛡️ Verify on Coursera](https://coursera.org/share/0219478af420c3af3fe53c89393b1e6e) |
+
+
+</div> 
