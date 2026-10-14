@@ -1,3 +1,15 @@
+
+<div align="center">
+
+# 🎨 DeepLearning.AI Generative Adversarial Networks (GANs) Specialization
+
+[![DeepLearning.AI Specialization](https://img.shields.io/badge/Certification-DeepLearning.AI%20GANs-blue?style=for-the-badge&logo=deeplearningdotai)](https://coursera.org/share/0219478af420c3af3fe53c89393b1e6e)
+[![Status](https://img.shields.io/badge/Progress-02%20Course%20Complete-success?style=for-the-badge)](https://coursera.org/share/2489307b36277a48169f82ba6823e912)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/subhan-ullah-alfaqeer)
+
+---
+</div>
+
 # 🚀 Course 2: Build Better Generative Adversarial Networks (GANs)
 
 Welcome to **Course 2** of the **DeepLearning.AI Generative Adversarial Networks (GANs) Specialization**! This course bridges foundational adversarial learning and state-of-the-art generative architecture design. You will transition from basic GAN training to implementing quantitative evaluation metrics, auditing machine learning bias, exploring alternative generative paradigms (VAEs, Score-Based Models, and NeRF), and constructing Kerras et al.'s landmark StyleGAN architecture from scratch in PyTorch.
@@ -80,3 +92,22 @@ $$\mathbf{W}^{\prime\prime}_{i,j,k} = \frac{\mathbf{s}_i \cdot \mathbf{W}_{i,j,k
 | Deep Learning Framework | Evaluation & Metrics Models | Generative & NeRF Libraries | Interactive Environment |
 | :---: | :---: | :---: | :---: |
 | ![PyTorch](https://img.shields.io/badge/PyTorch-2.x-EE4C2C?style=flat&logo=pytorch&logoColor=white) | ![Torchvision](https://img.shields.io/badge/Torchvision-Inception_v3_&_VGG-0056D2?style=flat&logo=python&logoColor=white) | ![SciPy](https://img.shields.io/badge/SciPy-Matrix_Algebra_&_sqrtm-8CAAE6?style=flat&logo=scipy&logoColor=white) | ![Jupyter](https://img.shields.io/badge/Jupyter-Interactive_Labs-FA0F00?style=flat&logo=jupyter&logoColor=white) |
+
+
+---
+## 🚀 Professional Credentials
+
+Upon the successful completion of this rigorous engineering track, I have earned the following industry-recognized credentials:
+
+🎓 **Coursera Professional Certificate Verified** 
+
+<div align="center">
+
+
+| **Official Certificate** |
+| :---: |
+| <a href="https://coursera.org/share/2489307b36277a48169f82ba6823e912"><img src="../certificates/002 Build Better Generative Adversarial Networks (GANs-1.png" width="580" alt="View Certificate"></a> |
+| [🛡️ Verify on Coursera](https://coursera.org/share/2489307b36277a48169f82ba6823e912) |
+
+
+</div> 
