@@ -1,3 +1,14 @@
+<div align="center">
+
+# 🎨 DeepLearning.AI Generative Adversarial Networks (GANs) Specialization
+
+[![DeepLearning.AI Specialization](https://img.shields.io/badge/Certification-DeepLearning.AI%20GANs-blue?style=for-the-badge&logo=deeplearningdotai)](https://coursera.org/share/0219478af420c3af3fe53c89393b1e6e)
+[![Status](https://img.shields.io/badge/Progress-03%20Course%20Complete-success?style=for-the-badge)](https://coursera.org/share/1fb128cd574bccf8a330b9f231219d37)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/subhan-ullah-alfaqeer)
+
+---
+</div>
+
 # 🎨 Course 3: Apply Generative Adversarial Networks (GANs)
 
 Welcome to **Course 3** of the **DeepLearning.AI Generative Adversarial Networks (GANs) Specialization**! This final course transitions from theoretical foundations and architectural design into real-world computer vision applications and generative pipelines. You will explore practical implementations across synthetic data augmentation, privacy-preserving face de-identification, paired image-to-image translation, and unpaired style transfer.
@@ -76,3 +87,22 @@ The operational mathematical formulations and structural workflows governing Cou
 | Deep Learning Framework | Computer Vision & Image Operations | Optimization & Metrics | Interactive Environment |
 | :---: | :---: | :---: | :---: |
 | ![PyTorch](https://img.shields.io/badge/PyTorch-2.x-EE4C2C?style=flat&logo=pytorch&logoColor=white) | ![Torchvision](https://img.shields.io/badge/Torchvision-Transforms_&_DataLoaders-0056D2?style=flat&logo=python&logoColor=white) | ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F1_Score_&_Metrics-F7931E?style=flat&logo=scikit-learn&logoColor=white) | ![Jupyter](https://img.shields.io/badge/Jupyter-Interactive_Labs-FA0F00?style=flat&logo=jupyter&logoColor=white) |
+
+
+---
+## 🚀 Professional Credentials
+
+Upon the successful completion of this rigorous engineering track, I have earned the following industry-recognized credentials:
+
+🎓 **Coursera Professional Certificate Verified** 
+
+<div align="center">
+
+
+| **Official Certificate** |
+| :---: |
+| <a href="https://coursera.org/share/1fb128cd574bccf8a330b9f231219d37"><img src="../certificates/003 Coursera Apply Generative Adversarial Networks (GANs)-1.png" width="580" alt="View Certificate"></a> |
+| [🛡️ Verify on Coursera](https://coursera.org/share/1fb128cd574bccf8a330b9f231219d37) |
+
+
+</div> 
