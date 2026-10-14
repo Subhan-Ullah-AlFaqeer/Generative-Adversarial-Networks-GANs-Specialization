@@ -1,3 +1,15 @@
+
+<div align="center">
+
+# 🎨 DeepLearning.AI Generative Adversarial Networks (GANs) Specialization
+
+[![DeepLearning.AI Specialization](https://img.shields.io/badge/Certification-DeepLearning.AI%20GANs-blue?style=for-the-badge&logo=deeplearningdotai)](https://coursera.org/share/0219478af420c3af3fe53c89393b1e6e)
+[![Status](https://img.shields.io/badge/Progress-01%20Course%20Complete-success?style=for-the-badge)](https://coursera.org/share/370ff08c553e9306128c419216a20441)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/subhan-ullah-alfaqeer)
+
+---
+</div>
+
 # 🎨 Course 1: Build Basic Generative Adversarial Networks (GANs)
 
 Welcome to **Course 1** of the **DeepLearning.AI Generative Adversarial Networks (GANs) Specialization**! This course provides a comprehensive hands-on foundation in generative modeling—taking you from fundamental minimax game theory and PyTorch autograd dynamics to production-grade Deep Convolutional GANs (DCGAN), 1-Lipschitz enforcement via Wasserstein GANs with Gradient Penalty (WGAN-GP), and controllable synthesis using Conditional GANs (cGAN) and latent space manipulation.
@@ -77,3 +89,22 @@ $$G_{\text{input}} = \text{Concat}\left(z \in \mathbb{R}^{B \times d_z}, y_{\tex
 | Deep Learning Framework | Tensor Calculation & Autograd | Vision & Data Augmentation | Interactive Environment |
 | :---: | :---: | :---: | :---: |
 | ![PyTorch](https://img.shields.io/badge/PyTorch-2.x-EE4C2C?style=flat&logo=pytorch&logoColor=white) | ![Autograd](https://img.shields.io/badge/PyTorch-Autograd_&_Functional-0056D2?style=flat&logo=python&logoColor=white) | ![Torchvision](https://img.shields.io/badge/Torchvision-Transforms_&_DataLoaders-76B900?style=flat&logo=pytorch&logoColor=white) | ![Jupyter](https://img.shields.io/badge/Jupyter-Interactive_Labs-FA0F00?style=flat&logo=jupyter&logoColor=white) |
+
+
+---
+## 🚀 Professional Credentials
+
+Upon the successful completion of this rigorous engineering track, I have earned the following industry-recognized credentials:
+
+🎓 **Coursera Professional Certificate Verified** 
+
+<div align="center">
+
+
+| **Official Certificate** |
+| :---: |
+| <a href="https://coursera.org/share/370ff08c553e9306128c419216a20441"><img src="../certificates/001 Build Basic Generative Adversarial Networks (GANs)-1.png" width="580" alt="View Certificate"></a> |
+| [🛡️ Verify on Coursera](https://coursera.org/share/370ff08c553e9306128c419216a20441) |
+
+
+</div> 
